@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Ancient Indian Values in Girish Karnad's Plays:
+An Ethical Study of English Translations
+</title>
+
+<meta name="description"
+content="Academic Presentation Website based strictly on the uploaded PhD Research Synopsis">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===========================
+OPENING PASSWORD SCREEN
+=========================== -->
+
+<section id="loginScreen" class="login-screen">
+
+<div class="overlay"></div>
+
+<div class="login-card">
+
+<h1>
+Ancient Indian Values in Girish Karnad's Plays:
+An Ethical Study of English Translations
+</h1>
+
+<h2>
+Research Synopsis Presentation
+</h2>
+
+<div class="meta-block">
+
+<p><strong>Scholar:</strong> Gordhan Ram</p>
+
+<p><strong>Supervisor:</strong> Prof. Anil Kumar Dadhich</p>
+
+<p><strong>Department:</strong> English Department</p>
+
+<p><strong>Institution:</strong> Maharshi Dayanand Saraswati University, Ajmer</p>
+
+<p><strong>Session:</strong> 2026</p>
+
+</div>
+
+<p class="welcome-line">
+Welcome to the academic presentation based strictly on the submitted research synopsis.
+</p>
+
+<label for="presentationPassword">
+Enter Presentation Password
+</label>
+
+<input
+type="password"
+id="presentationPassword"
+aria-label="Presentation Password"
+placeholder="Enter Password">
+
+<button
+id="presentationBtn"
+onclick="verifyPresentationPassword()">
+Start Presentation
+</button>
+
+<p id="presentationError" class="error-msg"></p>
+
+<div class="password-note">
+Academic Use Only
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+MAIN PRESENTATION
+=========================== -->
+
+<main id="presentationArea" class="hidden">
+
+<header class="topbar">
+
+<button onclick="goHome()">Home</button>
+
+<button onclick="prevSlide()">Previous</button>
+
+<button onclick="nextSlide()">Next</button>
+
+<button onclick="toggleFullscreen()">Fullscreen</button>
+
+<button onclick="openPreparationLogin()">
+My Preparation Corner
+</button>
+
+<div id="slideCounter">
+Slide 1 / 16
+</div>
+
+</header>
+
+<div class="progress-container">
+<div id="progressBar"></div>
+</div>
+
+<!-- =====================================
+SLIDE 1
+===================================== -->
+
+<section class="slide active">
+
+<h1>
+Ancient Indian Values in Girish Karnad's Plays:
+An Ethical Study of English Translations
+</h1>
+
+<div class="slide-content">
+
+<p><strong>Research Scholar:</strong> Gordhan Ram</p>
+
+<p><strong>Research Supervisor:</strong> Prof. Anil Kumar Dadhich</p>
+
+<p><strong>Department:</strong> English Department</p>
+
+<p><strong>Institution:</strong> Maharshi Dayanand Saraswati University, Ajmer</p>
+
+<p><strong>Session:</strong> 2026</p>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Page 1
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 2
+===================================== -->
+
+<section class="slide">
+
+<h2>Introduction</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>
+Girish Karnad occupies a distinguished position in modern Indian drama.
+</li>
+
+<li>
+His plays creatively engage with myth, history, folklore, ritual and cultural consciousness.
+</li>
+
+<li>
+He reinterprets inherited narratives in relation to modern ethical, social, psychological and political dilemmas.
+</li>
+
+<li>
+The study investigates ancient Indian ethical values in Karnad's English-translated plays.
+</li>
+
+</ul>
+
+<button class="details-btn"
+onclick="openModal('introModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Page 2
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 3
+===================================== -->
+
+<section class="slide">
+
+<h2>Statement of the Problem</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>
+Existing scholarship focuses on myth, folklore, history, gender, politics and culture.
+</li>
+
+<li>
+Ancient Indian ethical values have not been studied systematically.
+</li>
+
+<li>
+Ethical concepts such as dharma, satya, ahimsa, karma and responsibility require focused investigation.
+</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('problemModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 3–4
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 4
+===================================== -->
+
+<section class="slide">
+
+<h2>Significance of the Study</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Contribution to Karnad Studies</li>
+
+<li>Contribution to Ethical Literary Criticism</li>
+
+<li>Contribution to Indian Knowledge Systems</li>
+
+<li>Societal Relevance</li>
+
+<li>Relevance to Indian English Drama</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('significanceModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 15–18
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 5
+===================================== -->
+
+<section class="slide">
+
+<h2>Review of Literature</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Myth, Folklore and Tradition</li>
+
+<li>History, Politics and Power</li>
+
+<li>Gender and Female Consciousness</li>
+
+<li>Identity and Existential Conflict</li>
+
+<li>Culture, Indianness and Knowledge Systems</li>
+
+<li>Translation and English Reception</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('literatureModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 4–8
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 6
+===================================== -->
+
+<section class="slide">
+
+<h2>Research Gap</h2>
+
+<div class="slide-content">
+
+<ol>
+
+<li>
+Ancient Indian values not studied as a sustained ethical framework.
+</li>
+
+<li>
+Ethical dimensions remain underexplored.
+</li>
+
+<li>
+Ancient thought and modern dilemmas insufficiently theorized.
+</li>
+
+<li>
+English translations inadequately examined.
+</li>
+
+<li>
+Political ethics require deeper study.
+</li>
+
+</ol>
+
+<button
+class="details-btn"
+onclick="openModal('gapModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Page 7
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 7
+===================================== -->
+
+<section class="slide">
+
+<h2>Objectives of the Study</h2>
+
+<div class="slide-content">
+
+<ol>
+
+<li>Identify ancient Indian values.</li>
+
+<li>Examine ethical concepts in Karnad's dramatic vision.</li>
+
+<li>Explore myth, folklore, history and ritual.</li>
+
+<li>Interpret plays through Indian value systems.</li>
+
+<li>Connect ancient ethics with modern concerns.</li>
+
+<li>Assess significance of English translations.</li>
+
+</ol>
+
+<button
+class="details-btn"
+onclick="openModal('objectiveModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Page 8
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 8
+===================================== -->
+
+<section class="slide">
+
+<h2>Research Questions</h2>
+
+<div class="slide-content">
+
+<p>
+Eight research questions guide the study, focusing on values, ethics,
+translation, modern dilemmas and Indian Knowledge Systems.
+</p>
+
+<button
+class="details-btn"
+onclick="openModal('questionModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 8–9
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 9
+===================================== -->
+
+<section class="slide">
+
+<h2>Scope and Delimitation</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Focus on English-translated plays.</li>
+
+<li>Indian cultural and ethical framework.</li>
+
+<li>Limited to selected plays.</li>
+
+<li>No linguistic comparison with Kannada originals.</li>
+
+<li>Literary and ethical focus only.</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('scopeModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 9–11
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 10
+===================================== -->
+
+<section class="slide">
+
+<h2>Selected Plays</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Yayati</li>
+<li>Hayavadana</li>
+<li>Naga-Mandala</li>
+<li>Tughlaq</li>
+<li>The Fire and the Rain</li>
+<li>Bali: The Sacrifice</li>
+<li>The Dreams of Tipu Sultan</li>
+<li>Tale-Danda</li>
+
+</ul>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 9–10
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 11
+===================================== -->
+
+<section class="slide">
+
+<h2>Research Methodology</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Qualitative Research</li>
+
+<li>Textual Analysis</li>
+
+<li>Ethical Criticism</li>
+
+<li>Hermeneutic Interpretation</li>
+
+<li>Contextual Analysis</li>
+
+<li>Translation-Aware Reading</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('methodModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 11–15
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 12
+===================================== -->
+
+<section class="slide">
+
+<h2>Primary and Secondary Sources</h2>
+
+<div class="slide-content">
+
+<p>
+Primary Sources:
+Selected English-translated plays of Girish Karnad.
+</p>
+
+<p>
+Secondary Sources:
+Books, journals, theses, INFLIBNET resources,
+Shodhganga, university repositories and critical studies.
+</p>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 13–14
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 13
+===================================== -->
+
+<section class="slide">
+
+<h2>Tentative Chapterization</h2>
+
+<div class="slide-content">
+
+<ol>
+
+<li>Introduction</li>
+
+<li>Review of Literature</li>
+
+<li>Conceptual Framework</li>
+
+<li>Methodology</li>
+
+<li>Myth, Desire, Duty</li>
+
+<li>Ritual, Sacrifice and Violence</li>
+
+<li>Political Ethics and Kingship</li>
+
+<li>Findings and Conclusion</li>
+
+</ol>
+
+<button
+class="details-btn"
+onclick="openModal('chapterModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 18–22
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 14
+===================================== -->
+
+<section class="slide">
+
+<h2>Expected Outcomes</h2>
+
+<div class="slide-content">
+
+<ul>
+
+<li>Identify major ancient Indian values.</li>
+
+<li>Develop ethical framework.</li>
+
+<li>Fill research gap.</li>
+
+<li>Contribute to Indian English Drama.</li>
+
+<li>Contribute to Indian Knowledge Systems.</li>
+
+</ul>
+
+<button
+class="details-btn"
+onclick="openModal('outcomeModal')">
+Details
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 22–24
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 15
+===================================== -->
+
+<section class="slide">
+
+<h2>Bibliography</h2>
+
+<div class="slide-content">
+
+<p>
+Primary and secondary sources reproduced from the synopsis bibliography.
+</p>
+
+<button
+class="details-btn"
+onclick="openModal('bibliographyModal')">
+View References
+</button>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 24–26
+</footer>
+
+</section>
+
+<!-- =====================================
+SLIDE 16
+===================================== -->
+
+<section class="slide">
+
+<h2>Conclusion</h2>
+
+<div class="slide-content">
+
+<p>
+The synopsis proposes a focused ethical study of Karnad's selected English-translated plays through ancient Indian values and seeks to establish these values as dynamic ethical forces rather than fixed doctrines.
+</p>
+
+</div>
+
+<footer>
+Citation: Synopsis PDF, Pages 22–24
+</footer>
+
+</section>
+
+</main>
+
+<!-- ===========================
+DETAILS MODAL
+=========================== -->
+
+<div id="detailsModal" class="modal">
+
+<div class="modal-content">
+
+<button class="close-btn"
+onclick="closeModal()">
+×
+</button>
+
+<div id="modalBody"></div>
+
+</div>
+
+</div>
+
+<!-- ===========================
+PREPARATION LOGIN
+=========================== -->
+
+<div id="prepLoginModal" class="modal">
+
+<div class="modal-content">
+
+<h2>My Preparation Corner</h2>
+
+<input
+type="password"
+id="prepPassword"
+placeholder="Enter Password">
+
+<button onclick="verifyPrepPassword()">
+Open
+</button>
+
+<p id="prepError"></p>
+
+</div>
+
+</div>
+
+<!-- ===========================
+PREPARATION CORNER
+=========================== -->
+
+<section id="preparationCorner" class="hidden">
+
+<h1>My Preparation Corner</h1>
+
+<div class="prep-grid">
+
+<div class="prep-card">
+<h3>Synopsis Summary</h3>
+</div>
+
+<div class="prep-card">
+<h3>Quick Revision</h3>
+</div>
+
+<div class="prep-card">
+<h3>Objectives Explained</h3>
+</div>
+
+<div class="prep-card">
+<h3>Methodology Notes</h3>
+</div>
+
+<div class="prep-card">
+<h3>Possible Viva Questions</h3>
+</div>
+
+<div class="prep-card">
+<h3>Possible Viva Answers</h3>
+</div>
+
+<div class="prep-card">
+<h3>Research Gap Preparation</h3>
+</div>
+
+<div class="prep-card">
+<h3>Final Checklist</h3>
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
